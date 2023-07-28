@@ -1,0 +1,4 @@
+baseURL = 'https://vanessacorreia.com'
+languageCode = 'en-GB'
+title = 'Vanessa Correia'
+theme = 'basic'
