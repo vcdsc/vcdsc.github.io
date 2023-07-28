@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Inconsolata", monospace;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+nav,
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav > a {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    flex-direction: row;
+  }
+}
